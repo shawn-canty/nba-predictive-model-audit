@@ -1,6 +1,8 @@
 # NBA Predictive Model: Proof of Concept, Scalability, and Profitability
 
-**Role:** Lead Data Analyst | Model Validation & Strategy
+**Analyst:** Shawn Canty
+
+**Date:** July 2026
 
 🔗 **[View the Interactive Tableau Dashboard Here](https://public.tableau.com/app/profile/shawn.canty/viz/nba_predictive_model_analysis/Dashboard1)**
 
