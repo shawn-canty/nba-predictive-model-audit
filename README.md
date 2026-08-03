@@ -4,7 +4,7 @@
 
 **Date:** July 2026
 
-🔗 **[View the Interactive Tableau Dashboard Here](https://public.tableau.com/app/profile/shawn.canty/viz/nba_predictive_model_analysis/Dashboard1)**
+🔗 **[View the Tableau Dashboard Here](https://public.tableau.com/app/profile/shawn.canty/viz/nba_predictive_model_analysis/Dashboard1)**
 
 ## 1. Business Problem & Context
 
