@@ -1,3 +1,5 @@
+The following table defines the schema for the NBA Model attributes used in this analysis.
+
 # Data Dictionary: NBA Predictive Model
 
 | Column Name | BigQuery Data Type | Plain English Description |
