@@ -6,6 +6,8 @@
 
 🔗 **[View the Model Dashboard Here](https://public.tableau.com/app/profile/shawn.canty/viz/nba_predictive_model_analysis/Dashboard1)**
 
+<img width="1039" height="553" alt="Screenshot 2026-08-05 at 6 12 44 AM" src="https://github.com/user-attachments/assets/cdd3d71c-ce9f-4fbe-bf14-fc461f0e9ecb" />
+
 ## 1. Business Problem & Context
 
 I developed a prototype predictive model for 300+ NBA player props across points, rebounds, and assists. Before investing engineering resources to scale this model across all 30 teams in BigQuery (Phase 2), I conducted a retrograde Proof of Concept (PoC) during the NBA Playoffs. This analysis evaluates the PoC’s performance in a volatile environment to answer one question: Can this model generate stable profit in a controlled market, or does it need more work before scaling?
