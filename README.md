@@ -28,8 +28,9 @@ To justify greenlighting Phase 2 (league-wide scaling), the prototype must pass 
 
 ---
 
-
 ## 4. Executive Summary & Strategic Recommendations
+
+[View the Executive Slide Deck (PDF)](nba_executive_presentation.pdf)
 
 **The Verdict:** The predictive model in its current state did not meet the criteria for immediate Phase 2 (league-wide) deployment. While the aggregate model failed to beat the break-even threshold, segmentation revealed a promising sub-market in Rebounds with a 55.15% win rate. Due to a structural directional bias affecting the entire algorithm, a global pause and recalibration are required. This will be followed by an expanded 1,000-play backtest to validate the Rebounds edge before committing capital.
 
@@ -41,7 +42,7 @@ To justify greenlighting Phase 2 (league-wide scaling), the prototype must pass 
 
 **Gate 2: Predictive Stability (Failed)**
 * **Directional Bias:** The model has a critical structural flaw, heavily over-indexing on “More” across all categories with a 64.0% to 75.1% bias. It fails to account for the inherent “Under” bias common in volatile playoff environments such as blowouts, foul trouble, and tightened rotations.
-* **Accuracy (MAE):** Points predictions showed high variance, missing by an average of 5.10 points and failing the ~4.50 industry benchmark. Assists stayed within a safe MAE threshold of 1.67 but were unprofitable due to directional bias. Rebounds offered critical insight: despite slightly missing the ~2.00 benchmark with a 2.10 MAE, it still drove the highest profitability. This 0.10 variance suggests the model’s rebounding edge is resilient, but the underlying algorithmic bias must be addressed.
+* **Accuracy (MAE):** Point predictions showed high variance, missing by an average of 5.10 points and failing the ~4.50 industry benchmark. Assists stayed within a safe MAE threshold of 1.67 but were unprofitable due to directional bias. Rebounds offered critical insight: despite slightly missing the ~2.00 benchmark with a 2.10 MAE, it still drove the highest profitability. This 0.10 variance suggests the model’s rebounding edge is resilient, but the underlying algorithmic bias must be addressed.
 
 ### Actionable Recommendations (Next Steps):
 * **Global Pause & Recalibration:** Halt live deployment. The directional bias toward “More” fundamentally affects the core algorithm. We must integrate playoff-specific variables such as pace adjustments, defensive rating matchups, and minute-reduction thresholds to recalibrate all three categories before scaling.
