@@ -13,4 +13,4 @@ The following table defines the schema for the NBA Model attributes used in this
 | `proj_lean` | STRING | The model's active betting direction (more, less, or fade if no edge). |
 | `actual_outcome` | INTEGER | The actual stat recorded by the player in the real game. |
 | `proj_tally` | STRING | The graded outcome of the prediction (win, loss, PUSH, fade). |
-| `model_margin` | FLOAT | The mathematical delta between the model's projection and the market consensus. |
+| `model_margin` | FLOAT | The mathematical delta between the model's projection and the actual outcome. |
